@@ -87,7 +87,7 @@ def start(app, message):
     )
 
 # ==== Type Pokemon =====
-@app.on_message(Filters.command(['types', 'type@inhumanDexBot']))
+@app.on_message(Filters.command(['type', 'type@inhumanDexBot']))
 def ptype(app, message):
     try:
         gtype = message.text.split(' ')[1]
@@ -153,7 +153,7 @@ def ptype_buttons(user_id):
         InlineKeyboardButton('Delete',callback_data=f"hexa_delete_{user_id}")]])
     return keyboard
     
-@app.on_message(Filters.command(['type', 'types@inhumanDexBot']))
+@app.on_message(Filters.command(['types', 'types@inhumanDexBot']))
 def types(app, message): 
     user_id = message.from_user.id
     app.send_message(
