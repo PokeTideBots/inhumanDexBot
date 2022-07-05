@@ -21,10 +21,10 @@
 		"Rock": "🧱",
 		"Poison": "☠️"
 	},
-	"start_message": "<b>⚡️ Yo, I'm Multi Featue PokeDex Bot 🥳.<\b>\n<b>My trainer merged me with a Telegram Bot. He's teaching me some commands, for now I learned these:<\b>\n\n<b>/start: you just used it 🙃<\b>\n<b>/data <<code>PokemonName</code>>: Get information about that Pokémon<\b>\n<b>/faq: FAQ ❓<\b>\n<b>/about: Informations about me 🤩<\b>",
-	"error1": "<b>Syntax Error!<\b>\n<b>Use eg:<\b> `/data Rotomcode`",
-	"results": "Invalid Pokémon Name! \n\n <b>Here Are The Similar Results:<\b>",
-	"about": "<b>⚡️Yo, I'm a Multi Featue PokeDex Bot 🥳.</b> \n<b>♨️ Made by 💠 @PokeTide 💠</b>",
+	"start_message": "⚡ <b>Yo, I'm Multi Featue PokeDex Bot 🥳.<\b> \n <b>My trainer merged me with a Telegram Bot. He's teaching me some commands, for now I learned these:<\b> \n \n <b>/start: you just used it 🙃<\b> \n <b>/data <<code>PokemonName</code>>: Get information about that Pokémon<\b> \n <b>/faq: FAQ ❓<\b> \n <b>/about: Informations about me 🤩<\b>",
+	"error1": "<b>Syntax Error!<\b> \n <b>Use eg:<\b> `/data Rotomcode`",
+	"results": "Invalid Pokémon Name! \n \n <b>Here Are The Similar Results:<\b>",
+	"about": "<b>⚡️Yo, I'm a Multi Featue PokeDex Bot 🥳.</b> \n <b>♨️ Made by 💠 @PokeTide 💠</b>",
 	"legend": "<i>Move (Type)\nCategory, Method</i>",
 	"minmax": "<i>Min/max stats at level 100</i>",
 	"limit": "⚡️⚡️😵⚡️😵 <b>ZZZZZZRTTT</b> 😵⚡️⚡️😵⚡️\nOh Arceus, do you want to drive me crazy? Well don't do it anymore, there are no Pokémon with more than 25 characters in the name",
@@ -32,7 +32,7 @@
 	"moveset": "<a href=\"{}\">{}</a> <b>{}</b> ({})\n<i>{}, {}</i>\n",
 	"usage": "{}. <b>{}</b> (<i>{}</i>)\n",
 	"not_admin": "You cannot use this command because you are not an admin",
-	"added": "<b>⚡️ Yooo. Thanks for adding me, I'm A Multi Featue PokeDex Bot . My trainer merged me with a Telegram Bot, so I can give you a lot of informations about the Pokemon world! These are my commands: <\b>\n \n/<b>start: Command list<\b> \n<b>/data PokemonName: Get information about that Pokémon<\b> \n<b>/faq: FAQ ❓<\b>\n<b>/about: Informations about me 🤩,<\b>",
+	"added": "⚡ <b>Yooo. Thanks for adding me, I'm A Multi Featue PokeDex Bot . My trainer merged me with a Telegram Bot, so I can give you a lot of informations about the Pokemon world! These are my commands: <\b> \n \n <b>/start: Command list<\b> \n <b>/data PokemonName: Get information about that Pokémon<\b> \n <b>/faq: FAQ ❓<\b> \n <b>/about: Informations about me 🤩,<\b>",
 	"stats": "👤 <b>Users</b>: {}\n👥<b>Groups</b>: {}\n<b>Total users in the groups: <u>{}</u></b>",
 	"faq": "❓ <b>FAQ</b> \n \n <b>🎭 A miltifeature PokeDex Bot</b> \n <b>♨️ Made by 💠 @PokeTide 💠</b>"
 }
