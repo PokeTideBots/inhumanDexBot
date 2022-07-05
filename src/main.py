@@ -225,8 +225,7 @@ def poketypes(app, message):
     except IndexError:
         app.send_message(
             chat_id=message.chat.id,
-            text=("`Syntex error: use eg '/ptype pokemon_name'`\n"
-                  "`eg /ptype Pikachu`")
+            text=("Syntex error!\nUse eg: `/ptype Pikachu`")
         )
         return  
     try:
