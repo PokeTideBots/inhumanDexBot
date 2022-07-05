@@ -34,5 +34,5 @@
 	"not_admin": "You cannot use this command because you are not an admin",
 	"added": "<b>⚡️ Yooo. Thanks for adding me, I'm A Multi Featue PokeDex Bot . My trainer merged me with a Telegram Bot, so I can give you a lot of informations about the Pokemon world! These are my commands: <b>\n \n/<b>start: Command list<b> \n<b>/data PokemonName: Get information about that Pokémon<b> \n<b>/faq: FAQ ❓<b>\n<b>/about: Informations about me 🤩,<b>",
 	"stats": "👤 <b>Users</b>: {}\n👥<b>Groups</b>: {}\n<b>Total users in the groups: <u>{}</u></b>",
-	"faq": "<b>❓ FAQ\n \n<b>🎭 A miltifeature PokeDex Bot\n<b>♨️ Made by 💠 @PokeTide 💠<b>"
+	"faq": "<b>❓ FAQ<b> \n \n<b>🎭 A miltifeature PokeDex Bot<b> \n<b>♨️ Made by 💠 @PokeTide 💠<b>"
 }
