@@ -356,7 +356,7 @@ def pkmn_search(app, message):
             callback_data='moveset/'+pkmn+'/'+form
         ),
         InlineKeyboardButton(
-            text='🏠 Locations',
+            text='🏠 Location(s)',
             callback_data='locations/'+pkmn+'/'+form
         )
     ]]
