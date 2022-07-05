@@ -144,12 +144,12 @@ def set_rating(base):
     for i in tiers:
         if base < i:
             while rating_n >= 2:
-                rating_emoji += '🌕'
+                rating_emoji += '■'
                 rating_n -= 2
             if rating_n == 1:
-                rating_emoji += '🌗'
+                rating_emoji += '◧'
             while len(rating_emoji) != 5:
-                rating_emoji += '🌑'
+                rating_emoji += '□'
             break
         else:
             rating_n += 1
