@@ -94,7 +94,7 @@ def ptype(app, message):
     except IndexError as s:
         app.send_message(
             chat_id=message.chat.id,
-            text="Syntex error!\nUse eg: `/type poison`\n❗Do `/types` to check for the existing types."
+            text="Syntex error!\nUse eg: `/type poison`\n\n❗Do `/types` to check for the existing types."
         )
         return
     try:
