@@ -21,7 +21,7 @@
 		"Rock": "🧱",
 		"Poison": "☠️"
 	},
-	"start_message": "⚡ <b>Yo, I'm Multi Featue PokeDex Bot 🥳.<\b> \n My trainer merged me with a Telegram Bot. He's teaching me some commands, for now I learned these: \n \n /start: you just used it 🙃 \n /data <Pokemon Name>: Get information about that Pokémon \n /faq: FAQ ❓ \n /about: Informations about me 🤩",
+	"start_message": "⚡ Yo, I'm Multi Featue PokeDex Bot 🥳. \n My trainer merged me with a Telegram Bot. He's teaching me some commands, for now I learned these: \n \n /start: you just used it 🙃 \n /data <`PokemonName`>: Get information about that Pokémon \n /faq: FAQ ❓ \n /about: Informations about me 🤩",
 	"error1": "<b>Syntax Error!<\b> \n <b>Use eg:<\b> /data Rotomcode",
 	"results": "Invalid Pokémon Name! \n \n <b>Here Are The Similar Results:<\b>",
 	"about": "<b>⚡️Yo, I'm a Multi Featue PokeDex Bot 🥳.</b> \n <b>♨️ Made by 💠 @PokeTide 💠</b>",
