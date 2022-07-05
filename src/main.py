@@ -153,7 +153,7 @@ def ptype_buttons(user_id):
         InlineKeyboardButton('Delete',callback_data=f"hexa_delete_{user_id}")]])
     return keyboard
     
-@app.on_message(Filters.command(['types', 'types@inhumanDexBot']))
+@app.on_message(Filters.command(['type', 'types@inhumanDexBot']))
 def types(app, message): 
     user_id = message.from_user.id
     app.send_message(
