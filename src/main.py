@@ -407,7 +407,7 @@ def all_infos(app, call):
 
     markup_list = [[
         InlineKeyboardButton(
-            text='⬇️...Less',
+            text='...Less ⬇️',
             callback_data='basic_infos/'+pkmn+'/'+form
         )
     ],
@@ -518,8 +518,8 @@ def about(app, message):
     text = texts['about']
     markup = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            text='Github',
-            url='https://github.com/alessiocelentano/rotomgram'
+            text='Owner',
+            url='https://t.me/PokeTide'
         )
     ]])
 
@@ -530,43 +530,6 @@ def about(app, message):
         disable_web_page_preview=True
     )
 
-
-# ===== Raid commands =====
-@app.on_message(Filters.command(['addcode', 'addcode@inhumanDexBot']))
-def call_add_fc(app, message):
-    raid.add_fc(app, message, texts)
-
-@app.on_message(Filters.command(['mycode', 'mycode@inhumanDexBot']))
-def call_show_my_fc(app, message):
-    raid.show_my_fc(app, message, texts)
-
-@app.on_message(Filters.command(['newraid', 'newraid@inhumanDexBot']))
-def call_new_raid(app, message):
-    raid.new_raid(app, message, texts)
-
-@app.on_callback_query(Filters.create(lambda _, query: 'stars' in query.data))
-def call_stars(app, message):
-    raid.stars(app, message, texts)
-
-@app.on_callback_query(Filters.create(lambda _, query: 'join' in query.data))
-def call_join(app, message):
-    raid.join(app, message, texts)
-
-@app.on_callback_query(Filters.create(lambda _, query: 'done' in query.data))
-def call_done(app, message):
-    raid.done(app, message, texts)
-
-@app.on_callback_query(Filters.create(lambda _, query: 'yes' in query.data))
-def call_confirm(app, message):
-    raid.confirm(app, message, texts)
-
-@app.on_callback_query(Filters.create(lambda _, query: 'no' in query.data))
-def call_back(app, message):
-    raid.back(app, message, texts)
-
-@app.on_callback_query(Filters.create(lambda _, query: 'pin' in query.data))
-def call_pin(app, message):
-    raid.pin(app, message, texts)
 
 
 # ===== Presentation =====
