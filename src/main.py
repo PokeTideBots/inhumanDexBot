@@ -87,7 +87,7 @@ def start(app, message):
     )
 
 # ==== Type Pokemon =====
-@app.on_message(Filters.command(['type', 'type@inhumanDexBot']))
+@app.on_message(Filters.command(['types', 'type@inhumanDexBot']))
 def ptype(app, message):
     try:
         gtype = message.text.split(' ')[1]
